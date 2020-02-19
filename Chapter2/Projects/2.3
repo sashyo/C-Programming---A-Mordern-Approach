@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+/*
+
+Calculate the volume of a sphere
+
+*/
+int main()
+{
+    float v;
+    int r;
+
+    printf("Please input radius of the sphere: ");
+    scanf("%d",&r);
+
+    v = (4.0f/3.0f) * M_PI * pow(r,3);
+
+    printf("The volume of a sphere with a radius of %d, is %f", r,v);
+
+    return 0;
+
+}
