@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+/*
+
+Write a program that asks the user to enter a dollars-cents amount.
+then displays the amount with 5% tax
+
+*/
+int main()
+{
+    float amount, taxed_amount;
+    float tax = 0.05;  // multiply this to amount to get 5%
+
+    printf ("Please input dollars-and-cents amount: ");
+    scanf ("%f", &amount);
+
+    taxed_amount = (amount * tax) + amount;
+
+    printf("Your total amount including tax is $%.2f",taxed_amount);
+
+    return 0;
+
+}
