@@ -1,2 +1,2 @@
-# C-Programming---A-Mordern-Approach
+# C-Programming---A-Modern-Approach
 exercises\projects from the text book
